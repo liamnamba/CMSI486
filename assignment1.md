@@ -14,7 +14,7 @@ Instead of having each course start with the department name, you could create a
 
 14. When designing an airline reservation system, the best choice for the database would be a three-tiered architecture. We would need the three tiers: client, web-server, and database server for our system. The client would probably purchase their airline tickets by some kind of form/menu interface. But before we can accept their data and input it into the server, we must do checks and procedures. We will probably check the clients financial credentials to make sure they are valid, and be sure that the correct amount of money is transferred. There are some business specific procedures that must also be run before storing the data. An example would be that the system must be sure to reserve the seats on a specific flight so that another user could not reserve them first. 
 
-**Questions from Chapter 3:**
+**Problems from Chapter 3:**
 
 2. Tuples in a relation are not ordered because relationships are meant to represent abstract and logical facts. There is no preference in relation because the definition of relation is not does not specify any order. 
 
