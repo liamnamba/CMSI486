@@ -1,0 +1,27 @@
+
+Liam and Chris
+
+CMSI 486 Homework #1 Evaluation
+===============================
+
+One point awarded for each answer.
+Parial credit also awarded.
+====================================================================
+ 1. Chapter 1 #13:   1 pt.
+ 2. Chapter 1 #14a:  1 pt.
+ 3. Chapter 1 #14b:  0.75 pt. - this is a good idea, but there still needs
+                              to be SOMEPLACE that cross-references the
+                              "400" code to "CSSC"...
+ 4. Chapter 2 #3:    1 pt.
+ 5. Chapter 2 #7:    1 pt.
+ 6. Chapter 2 #14:   1 pt. - well-thought-out answer on this one!
+ 7. Chapter 3 #2:    1 pt.
+ 8. Chapter 3 #5:    1 pt.
+ 9. Chapter 3 #9:    1 pt.
+10. Chapter 3 #13:   1 pt.
+11. Chapter 3 #20c:  1 pt. - some good points here, especially with the
+                              auditing idea
+
+
+Total score: 10.75 out of 11 = 97.7% which is an A-plus
+
