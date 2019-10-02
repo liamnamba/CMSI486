@@ -3,7 +3,10 @@ CMSI 401
 Johnson
 September 29, 2019
 
+
 **ValuJet Write Up**
+
+
 Part One:
 	The story of ValuJet flight 592 begins in Miami. The plane took off and within ten minutes, smoke began to fill the cabin and the pilots began to lose control over their electrical instruments. A flight attendant came in and told the pilots that there was a fire in the passenger cabin. The flight controls and electrical systems failed due to the damage from the fire. Trying to turn the plane back to Miami to land the plane was seen crashing into a marsh-like area. People watching said that the plan was at a near vertical angle. It was later discovered that the fire was started below the passenger cabin in the cargo compartment.
  The cargo compartment was designed to stop fires by sealing off oxygen, so that any inferno would quickly suffocate. In fact, cargo compartments like these were not even equipped with smoke detectors. However, this plane was carrying expired chemical oxygen generators. These generators use a chemical reaction to generate oxygen incase the plane loses cabin pressure. Also, this chemical reaction causes a lot of heat when active. The canisters were packed in boxes by SabreTech, a maintenance contractor, and mislabeled. Also, the firing pins of these generators where duct taped down and wrapped around the canisters, rather than being covered by prescribed plastic safeties. SabreTech told workers that the boxes contained ‘empty oxy canisters’. The ValuJet workers thought they were simply empty containers, not live chemical-reacting oxygen generators. 
