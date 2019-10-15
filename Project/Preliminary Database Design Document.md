@@ -4,7 +4,7 @@ For our project, we will be creating an athletic team database using MySQL. This
 
 **1.2 – Data description, generally what type of data will be stored**
 
-The data stored will be individual player data and statistics. This will be data about each player and their accomplishments for the current soccer season. The season's game data and results will also be stored. (names, numbers, sates) 
+The data stored will be individual player data and statistics. This will be data about each player and their accomplishments for the current soccer season. The season's game data and results will also be stored. The type of data will be integers and varchars. 
 
 **1.3 – At least five examples of the type of data your database will provide to the user**
 
@@ -16,7 +16,16 @@ The data stored will be individual player data and statistics. This will be data
 
 **1.4 – A preliminary idea of the schema of the database including table descriptions and potential columns**
 
-The database will include three entities/tables. A player table which will have attributes/columns player name, number, class year, position, and hometown with number being the primary key since no two players on a team will have the same number. Second there will be a game table with columns for game number, result, date, opponent, and location. The primary key in this table will be the game number. There will be a participation relationship between these two entities which will include attributes goals scored in game and minutes played in game. The third column will be the statistics table. In this table, there will be columns for player number, goals scored, assists, total minutes played, cards received, and games started. The primaty key in this table will be the player number. 
+The database will include three entities/tables: 
+
+
+A player table which will have attributes/columns: player name, number, class year, position, and hometown with number being the primary key since no two players on a team will have the same number.
+
+
+Second there will be a game table with columns for game number, result, date, opponent, and location. The primary key in this table will be the game number. There will be a participation relationship between these two entities which will include attributes goals scored in game and minutes played in game. 
+
+
+The third entity will be the statistics table. In this table, there will be columns for player number, goals scored, assists, total minutes played, cards received, and games started. The primary key in this table will be the player number. The foreign key could either be player number, or player name.
 We will potentially discover more data points as the project progresses. 
 
 
