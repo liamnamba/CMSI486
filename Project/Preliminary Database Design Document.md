@@ -30,3 +30,4 @@ We will potentially discover more data points as the project progresses.
 
 
 **1.5 – A complete preliminary Entity-Relationship Diagram [ERD] for the database**
+![](https://github.com/liamnamba/CMSI486/blob/master/Project/erd.png)
