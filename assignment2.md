@@ -44,16 +44,11 @@ Consistency: transactions should be completed from beginning to end. It should t
 #### Problems from Van Bruggen Chapter 4:
 
 
-1. The four main data structures are.
-Node: used to store entity information.
+1. The four main data structures are:
 
-
-Relationship: used to connect nodes to one another explicitly. They have a type, a start and a stop. They can loop as well.
-
-
-Properties: nodes and relationships are containers for properties. These are basically name/value pairs.
-
-
-Label: these are used to quickly and efficiently create subgraphs. You can assign labels to nodes and then Neo4j will automatically make simple data models.
+  1. Node: used to store entity information.
+  2. Relationship: used to connect nodes to one another explicitly. They have a type, a start and a stop. They can loop as well.
+  3. Properties: nodes and relationships are containers for properties. These are basically name/value pairs.
+  4. Label: these are used to quickly and efficiently create subgraphs. You can assign labels to nodes and then Neo4j will automatically make simple data models.
 
 3. False - you can very effectively use a graph database, but you should take precautions, for example, applying a fan-out pattern to your data.
