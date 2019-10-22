@@ -2,7 +2,7 @@
 
 #### Problems from Elmasri Chapter 9:
 3. 
-
+![](https://github.com/liamnamba/CMSI486/blob/master/assignment2ERD.jpg | width=100)
 
 
 
