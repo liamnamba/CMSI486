@@ -1,6 +1,6 @@
-##Database Systems: Assignment Two
+## Database Systems: Assignment Two
 
-####Problems from Elmasri Chapter 9:
+#### Problems from Elmasri Chapter 9:
 3. 
 
 
@@ -8,7 +8,7 @@
 
 7. It is not possible to map out a binary relationship that is M:N without requiring a new relation. We need to create a new relation to link the two, and it must contain a foreign key from each of the corresponding entities.
 
-####Problems from Elmasri Chapter 10:
+#### Problems from Elmasri Chapter 10:
 
 
 3. It’s important to develop schema and application in parallel because it will ensure that your database will work well with your application. It ensures efficiency, correctness and that the project will be completed on time.
@@ -17,7 +17,7 @@
 
 6. For this problem I will analyze a database that holds information about sports players. The data needed will mainly be integers and varchars. These are to hold names and statistics about the different players. Front-End users would most likely be interacting with a website which sends queries to display different player statistics. These queries are navigational search queries as well as informational search queries. Each table would likely represent a different sport, with other tables containing specific player statistics such as team, age, etc. The database administrator would be the one inputting data. There are no necessary transactions because the database is mainly meant to simply store and display data. Only being able to navigate and insert new data is necessary for the administrator to successfully maintain the database.
 
-####Problems from Elmasri Chapter 15:
+#### Problems from Elmasri Chapter 15:
 
 
 5. A functional dependency is a constraint between two sets of attributes. Functional dependencies are defined by the database designer; it is a property of the semantics. The functional dependency works on different attributes, within the tuples of different tables. 
@@ -30,7 +30,7 @@
 
 
 
-####Problems from Elmasri Chapter 21:
+#### Problems from Elmasri Chapter 21:
 
 
 1. Concurrent execution is when multiple transactions are being executed on a database at the same time. Concurrency control is needed because we may run into problems when doing concurrent execution. An example would be two users using a database that contains tickets for a football game. If one user buys tickets: 1A,1B,1C, and another user tries to purchase ticket 1B, we would run into the lost update problem. If the transaction operations are interleaved, the first transaction would buy 1A, then the second transaction would buy 1B, leaving the first transaction trying to buy a ticket that is not there. We need concurrency control to stop issues like this.
@@ -41,7 +41,7 @@ Durability: changes that occur within the DB must not be lost by any kind of fai
 Consistency: transactions should be completed from beginning to end. It should take the database from one consistent state to another. Consistency is handled by the programmer to enforce integrity constraints. The state of the DB is defined by the schema, which is designed by the programmer. Constraints should be written so that the DB is always in a consistent state.
 
 
-####Problems from Van Bruggen Chapter 4:
+#### Problems from Van Bruggen Chapter 4:
 
 
 1. The four main data structures are.
