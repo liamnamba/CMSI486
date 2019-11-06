@@ -15,7 +15,7 @@ The database will include three entities/tables:
 
 - A statistics table to keep track of overall player accmplishments for the current season with columns: player number, goals scored, assists, total minutes played, cards received, and games started. The surrogate key will be a number 0-30 for each player. The foreign key would be player number.
 
-**2.3 – A complete finalized Entity-Relationship Diagram [ERD] for the database **
+**2.3 – A complete finalized Entity-Relationship Diagram [ERD] for the database**
 
 ![](https://github.com/liamnamba/CMSI486/blob/master/Project/new-erd.png)
  
