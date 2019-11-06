@@ -30,4 +30,5 @@ We will potentially discover more data points as the project progresses.
 
 
 **1.5 – A complete preliminary Entity-Relationship Diagram [ERD] for the database**
+The Primary Key for the players table will be the number. Since there is only one number per team on the womens soccer team we will not run into any duplicates. The games and statistics tables will both have surragate keys. This will likely be an incrementing integer . 
 ![](https://github.com/liamnamba/CMSI486/blob/master/Project/erd.png)
