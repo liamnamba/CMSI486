@@ -11,14 +11,11 @@ The database will include three entities/tables:
 
 - A player table to keep track of individual player data which will have attributes/columns: player name, player number, class year, position, and hometown. A players number will be the primary key since no two players on a team will have the same number, and we are only storing data for one team in our database.
 
-- A game table which will keep track of each game's information with columns: game number, result, date, opponent, and location. The primary key in this table will be the game number, which will simply be the order in which the games were played. 
+- A game table which will keep track of each game's information with columns: game number, result, date, opponent, location, and game ball. Game ball will represent the "MVP" for that specific game and will store the number of the player who received this award. The primary key in this table will be the game number, which will simply be the order in which the games were played. The foreign key in this table would be the Game ball with player number data. 
 
-*There will be a participation relationship between these two entities which will include attributes goals scored in game and minutes played in game. *
+- A statistics table to keep track of overall player accmplishments for the current season with columns: player number, goals scored, assists, total minutes played, cards received, and games started. The surrogate key will be a number 0-30 for each player. The foreign key would be player number.
 
-- A statistics table to keep track of overall player accmplishments. In this table, there will be columns for player number, goals scored, assists, total minutes played, cards received, and games started. The primary key in this table will be the player number. The foreign key could either be player number, or player name.
-We will potentially discover more data points as the project progresses. 
-
-2.3 
+*2.3 – A complete finalized Entity-Relationship Diagram [ERD] for the database *
 
 ![](https://github.com/liamnamba/CMSI486/blob/master/Project/new-erd.png)
  
