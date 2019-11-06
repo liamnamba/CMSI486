@@ -17,7 +17,7 @@ The database will include three entities/tables:
 
 **2.3 – A complete finalized Entity-Relationship Diagram [ERD] for the database**
 
-![](https://github.com/liamnamba/CMSI486/blob/master/Project/new-erd.png)
+![](https://github.com/liamnamba/CMSI486/blob/master/Project/erdv2.png)
  
 
 
