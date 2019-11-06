@@ -18,9 +18,9 @@ The database will include three entities/tables:
 - A statistics table to keep track of overall player accmplishments. In this table, there will be columns for player number, goals scored, assists, total minutes played, cards received, and games started. The primary key in this table will be the player number. The foreign key could either be player number, or player name.
 We will potentially discover more data points as the project progresses. 
 
-2.3 – A complete finalized Entity-Relationship Diagram [ERD] for the database [NOT hand-drawn, PLEASE!]
+2.3 
 
-
+![](https://github.com/liamnamba/CMSI486/blob/master/Project/new-erd.png)
  
 
 
