@@ -1,0 +1,21 @@
+﻿
+
+Athletic Team Database Project
+Detailed Design Document Feedback
+====================================
+
+Section 2.1 - covered: ✓
+Section 2.2 - covered: ✓
+Section 2.3 - covered: ✓
+
+You did a very nice job with this!  The ERD is very clean.  You have only
+listed one primary key, so the other two entities should show theirs, too.
+
+The data dictionary is a bit unconventional in your presentation, but that's
+not a bad thing.  I like stepping outside the box!
+
+
+Overall, VERY NICE WORK!
+
+you have 10% out of 10% which is 100% on this deliverable for an A-plus
+
