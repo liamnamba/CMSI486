@@ -95,22 +95,22 @@ Result: { "_id" : 4, "count" : 156 }
 ### 11. 
 Query: db.territories.aggregate( [ { $match: { "RegionID": 2 } }, { $group : { _id : {"TerritoryDescription": "$TerritoryDescription"} } }, { $group : { _id : null, count : { $sum: 1 }, results : { $push: "$$ROOT" } } } ] )
 
-Result: { "_id" : null,
-"count" : 15,
-"results" : [ { "_id" : { "TerritoryDescription" : "Seattle" } },
-{ "_id" : { "TerritoryDescription" : "Bellevue" } },
-{ "_id" : { "TerritoryDescription" : "SantaCruz" } },
-{ "_id" : { "TerritoryDescription" : "SantaClara" } },
-{ "_id" : { "TerritoryDescription" : "Campbell" } },
-{ "_id" : { "TerritoryDescription" : "MenloPark" } },
-{ "_id" : { "TerritoryDescription" : "Scottsdale" } },
-{ "_id" : { "TerritoryDescription" : "SantaMonica" } },
-{ "_id" : { "TerritoryDescription" : "Phoenix" } },
-{ "_id" : { "TerritoryDescription" : "ColoradoSprings" } },
-{ "_id" : { "TerritoryDescription" : "SanFrancisco" } },
-{ "_id" : { "TerritoryDescription" : "HoffmanEstates" } },
-{ "_id" : { "TerritoryDescription" : "Denver" } },
-{ "_id" : { "TerritoryDescription" : "Redmond" } },
+Result: { "_id" : null,  
+"count" : 15,  
+"results" : [ { "_id" : { "TerritoryDescription" : "Seattle" } },  
+{ "_id" : { "TerritoryDescription" : "Bellevue" } },  
+{ "_id" : { "TerritoryDescription" : "SantaCruz" } },  
+{ "_id" : { "TerritoryDescription" : "SantaClara" } },  
+{ "_id" : { "TerritoryDescription" : "Campbell" } },  
+{ "_id" : { "TerritoryDescription" : "MenloPark" } },  
+{ "_id" : { "TerritoryDescription" : "Scottsdale" } },  
+{ "_id" : { "TerritoryDescription" : "SantaMonica" } },  
+{ "_id" : { "TerritoryDescription" : "Phoenix" } },  
+{ "_id" : { "TerritoryDescription" : "ColoradoSprings" } },  
+{ "_id" : { "TerritoryDescription" : "SanFrancisco" } },  
+{ "_id" : { "TerritoryDescription" : "HoffmanEstates" } },  
+{ "_id" : { "TerritoryDescription" : "Denver" } },  
+{ "_id" : { "TerritoryDescription" : "Redmond" } },  
 { "_id" : { "TerritoryDescription" : "Chicago" } } ] }
 
 ### 12. 
