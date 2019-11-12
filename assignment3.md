@@ -1,9 +1,9 @@
 ## Assignment 3 For CMSI 486: Databases
 
 ### 1.
-Query: show collections
+**Query:** show collections
 
-Result:\
+**Result:**\
 categories\
 customers\
 employee-territories\
@@ -18,34 +18,34 @@ territories
 
 
 ### 2.
-Query: db.categories.count()
+**Query:** db.categories.count()
 
-Result: 8
+**Result:** 8
 
 ### 3.
-Query: db.orders.count()
+**Query:** db.orders.count()
 
-Result: 830
+**Result:** 830
 
 ### 4.
-Query: db.orders.count( {EmployeeID: 8} )
+**Query:** db.orders.count( {EmployeeID: 8} )
 
-Result: 104
+**Result:** 104
 
 ### 5.
-Query: db.employees.find( { EmployeeID: 1 }, { _id: 0, LastName: 1 } )
+**Query:** db.employees.find( { EmployeeID: 1 }, { _id: 0, LastName: 1 } )
 
-Result:{ "LastName" : "Davolio" }
+**Result:** { "LastName" : "Davolio" }
 
 ### 6.
-Query: db.orders.distinct( "EmployeeID", { "OrderID": { $lt: 10300 } } )
+**Query:** db.orders.distinct( "EmployeeID", { "OrderID": { $lt: 10300 } } )
 
-Result: [ 5, 4, 3, 9, 1, 8, 6, 2, 7 ]
+**Result:** [ 5, 4, 3, 9, 1, 8, 6, 2, 7 ]
 
 ### 7. 
-Query: db.suppliers.distinct( "CompanyName" )
+**Query:** db.suppliers.distinct( "CompanyName" )
 
-Result: [  
+**Result:** [  
 	"New Orleans Cajun Delights",  
 	"Grandma Kelly's Homestead",  
 	"Tokyo Traders",  
@@ -78,22 +78,22 @@ Result: [
 ]  
 
 ### 8. 
-Query: db.suppliers.count()
+**Query:** db.suppliers.count()
 
-Result:29
+**Result:** 29
 
 ### 9. 
-Query: db.suppliers.find( { City: "Boston" }, { _id: 0, SupplierID: 1, Phone: 1 } )
+**Query:**: db.suppliers.find( { City: "Boston" }, { _id: 0, SupplierID: 1, Phone: 1 } )
 
-Result: { "SupplierID" : 19, "Phone" : "(617) 555-3267" }
+**Result:** { "SupplierID" : 19, "Phone" : "(617) 555-3267" }
 
 ### 10. 
-Query: db.orders.aggregate( [ { $group : { _id : "$EmployeeID", count : { $sum : 1 } } }, { $sort : { count : -1 } }, { $limit : 1 } ] )
+**Query:** db.orders.aggregate( [ { $group : { _id : "$EmployeeID", count : { $sum : 1 } } }, { $sort : { count : -1 } }, { $limit : 1 } ] )
 
-Result: { "_id" : 4, "count" : 156 }
+**Result:** { "_id" : 4, "count" : 156 }
 
 ### 11. 
-Query: db.territories.aggregate( [ { $match: { "RegionID": 2 } }, { $group : { _id : {"TerritoryDescription": "$TerritoryDescription"} } }, { $group : { _id : null, count : { $sum: 1 }, results : { $push: "$$ROOT" } } } ] )
+**Query:** db.territories.aggregate( [ { $match: { "RegionID": 2 } }, { $group : { _id : {"TerritoryDescription": "$TerritoryDescription"} } }, { $group : { _id : null, count : { $sum: 1 }, results : { $push: "$$ROOT" } } } ] )
 
 Result: { "_id" : null,  
 "count" : 15,  
@@ -114,9 +114,9 @@ Result: { "_id" : null,
 { "_id" : { "TerritoryDescription" : "Chicago" } } ] }
 
 ### 12. 
-Query: db.shippers.find( { CompanyName: "United Package" }, { _id: 0, Phone: 1 } )
+**Query:** db.shippers.find( { CompanyName: "United Package" }, { _id: 0, Phone: 1 } )
 
-Result: { "Phone" : "(503) 555-3199" }
+**Result:** { "Phone" : "(503) 555-3199" }
 
 
 
