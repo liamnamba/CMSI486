@@ -1,5 +1,6 @@
-## Assignment 3 For CMSI 486: Databases
+# Assignment 3 For CMSI 486: Databases
 
+## MongoDB
 ### 1.
 **Query:** show collections
 
@@ -117,6 +118,68 @@ Result: { "_id" : null,
 **Query:** db.shippers.find( { CompanyName: "United Package" }, { _id: 0, Phone: 1 } )
 
 **Result:** { "Phone" : "(503) 555-3199" }
+
+## Neo4j
+
+### 1. 
+**Query:** 
+
+**Result:**
+
+### 2. 
+**Query:** 
+
+**Result:**
+
+### 3. 
+**Query:** 
+
+**Result:**
+
+### 4. 
+**Query:** 
+
+**Result:**
+
+### 5. 
+**Query:** 
+
+**Result:**
+
+### 6. 
+**Query:** 
+
+**Result:**
+
+### 7. 
+**Query:** 
+
+**Result:**
+
+### 8. 
+**Query:** 
+
+**Result:**
+
+### 9. 
+**Query:** 
+
+**Result:**
+
+### 10. 
+**Query:** 
+
+**Result:**
+
+### 11. 
+**Query:** 
+
+**Result:**
+
+### 12. 
+**Query:** 
+
+**Result:**
 
 
 
