@@ -122,14 +122,14 @@ Result: { "_id" : null,
 ## Neo4j
 
 ### 1. 
-**Query:** 
+**Query:** CALL db.labels() YIELD label RETURN label
 
 **Result:**
 
 ### 2. 
-**Query:** 
+**Query:** MATCH (n:Category) RETURN count(n)
 
-**Result:**
+**Result:** 
 
 ### 3. 
 **Query:** 
