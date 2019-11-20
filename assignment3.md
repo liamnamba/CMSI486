@@ -125,26 +125,45 @@ Result: { "_id" : null,
 **Query:** CALL db.labels() YIELD label RETURN label
 
 **Result:**
+"label"
+"Customer"
+"Product" 
+"Supplier" 
+"Employee" 
+"Category" 
+"Order"    
+"Territory"
+"Shipper" 
+"Orders"  
+"Suppliers"
 
 ### 2. 
 **Query:** MATCH (n:Category) RETURN count(n)
 
 **Result:** 
+"count(n)"
+8
 
 ### 3. 
-**Query:** 
+**Query:** MATCH (n:Order) RETURN count(n)
 
 **Result:**
+"count(n)"
+830
 
 ### 4. 
-**Query:** 
+**Query:** MATCH (n:Orders) WHERE n.EmployeeID = '8' RETURN count(n)
 
 **Result:**
+"count(n)"
+104
 
 ### 5. 
-**Query:** 
+**Query:** MATCH (n:Employee) WHERE n.employeeID = '1' RETURN n.lastName
 
 **Result:**
+"n.lastName"
+"Davolio"
 
 ### 6. 
 **Query:** 
@@ -152,19 +171,24 @@ Result: { "_id" : null,
 **Result:**
 
 ### 7. 
-**Query:** 
+**Query:**
 
 **Result:**
+
 
 ### 8. 
-**Query:** 
+**Query:** MATCH (n:Supplier) RETURN count(n)
 
 **Result:**
+"count(n)"
+29
 
 ### 9. 
-**Query:** 
+**Query:** MATCH (n:Suppliers) WHERE n.City = 'Boston' AND n.Region = 'MA' RETURN n.SupplierID, n.Phone
 
 **Result:**
+"n.SupplierID"    "n.phone"
+19		"(617) 555-3267"
 
 ### 10. 
 **Query:** 
@@ -177,10 +201,11 @@ Result: { "_id" : null,
 **Result:**
 
 ### 12. 
-**Query:** 
+**Query:** MATCH (n:Shipper) WHERE n.companyName = "United Package" RETURN n.phone
 
 **Result:**
-
+"n.phone"
+(503) 555-3195
 
 
 
