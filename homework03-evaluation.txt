@@ -1,0 +1,25 @@
+
+
+Homework 3 evaluation
+=====================
+
+Mongo section
+-------------
+questions 1 - 12     total 12 points
+bonus question 13    total 0 point
+bonus question 14    total 0 point
+
+
+Neo4J section
+-------------
+questions 1 - 12     total 8 points
+      no query/result for #6, #7, #10, or #11
+bonus question 13    total 0 point
+bonus question 14    total 0 point
+
+
+Total score:
+   20 out of 24 plus 0 bonus points
+
+   20 out of 24 = 83.33% which is a B
+
